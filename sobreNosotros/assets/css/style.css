@@ -18,3 +18,26 @@
 .card-img-top {
 	height: 30vh;
 }
+
+/* Animacion */
+
+#animated-text {
+  color: black; /* Color original del texto */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transiciones suaves para color y transformación */
+}
+
+#animated-text.hovered {
+  color: red; /* Color al colocar el mouse sobre el texto */
+  transform: translateY(-20px); /* Mover el texto hacia arriba 20px */
+}
+
+#Ani {
+
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(220, 204, 204);
+  color: white;
+  padding: 1em 1em ;
+
+}
